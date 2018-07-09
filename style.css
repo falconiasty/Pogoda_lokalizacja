@@ -1,0 +1,22 @@
+body {
+  background-image: url("img/cloud1.jpg");
+  background-attachment: fixed;
+  background-clip: padding-box;
+  background-size: cover;
+  color:white;
+}
+h2 {
+
+  color:white;
+}
+
+#data2{
+  border-radius: 70px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+#icon_sun {border-radius: 50px;
+  background-color: rgba(255, 255, 0, 0.5);
+
+
+
+}
