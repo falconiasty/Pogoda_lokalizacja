@@ -7,7 +7,7 @@ if(geo) {
     console.log('Szerokość ' + location.coords.latitude);
     console.log('Długość ' + location.coords.longitude);
 
-    var  coords = 'http://api.openweathermap.org/data/2.5/weather?lat='+location.coords.latitude+'&lon='+location.coords.longitude+'\&APPID=5fdf06236055565849ed4d0e8f85bd58';
+    var  coords = 'https://api.openweathermap.org/data/2.5/weather?lat='+location.coords.latitude+'&lon='+location.coords.longitude+'\&APPID=5fdf06236055565849ed4d0e8f85bd58';
     console.log(coords);
 
     fetch(coords)
@@ -31,7 +31,7 @@ if(geo) {
             var  tempe = document.getElementById("tempe");
             tempe.textContent = temp+"℃";
 
-            document.getElementById("icon_sun").src = "http://openweathermap.org/img/w/"+weather_descriptionIcon+".png";
+            document.getElementById("icon_sun").src = "https://openweathermap.org/img/w/"+weather_descriptionIcon+".png";
 
              document.getElementById("pressure").textContent = pressure+" hPa";
              document.getElementById("humidity").textContent = humidity+" %";
